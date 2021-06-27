@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/StarSensor/static/css/main.a41ec87e.chunk.css",
-    "main.js": "/StarSensor/static/js/main.f1da7f04.chunk.js",
-    "main.js.map": "/StarSensor/static/js/main.f1da7f04.chunk.js.map",
+    "main.js": "/StarSensor/static/js/main.7d34a742.chunk.js",
+    "main.js.map": "/StarSensor/static/js/main.7d34a742.chunk.js.map",
     "runtime-main.js": "/StarSensor/static/js/runtime-main.6aa8caf2.js",
     "runtime-main.js.map": "/StarSensor/static/js/runtime-main.6aa8caf2.js.map",
     "static/js/2.8deb63c2.chunk.js": "/StarSensor/static/js/2.8deb63c2.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.6aa8caf2.js",
     "static/js/2.8deb63c2.chunk.js",
     "static/css/main.a41ec87e.chunk.css",
-    "static/js/main.f1da7f04.chunk.js"
+    "static/js/main.7d34a742.chunk.js"
   ]
 }
