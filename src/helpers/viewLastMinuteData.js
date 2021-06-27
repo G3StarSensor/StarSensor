@@ -2,8 +2,10 @@
 
 export const viewLastMinuteData = (lastMinuteData) => (
     <table>
+      <thead></thead>
+      <tbody>
       {lastMinuteData.map((sensor, i) => (
-        <tr>
+        <tr key={i}>
           {sensor.M < 100 ? (
             <td>
               S{i}: {sensor.N} | {sensor.M}
@@ -15,6 +17,8 @@ export const viewLastMinuteData = (lastMinuteData) => (
           )}
         </tr>
       ))}
+      </tbody>
+      <tfoot></tfoot>
     </table>
   );
  

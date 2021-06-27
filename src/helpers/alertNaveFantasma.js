@@ -1,20 +1,23 @@
 //Esta función pone el led de alarma en azul o rojo dependiendo de si hay algún peligro o no (true/false)
 
-import { AiFillCheckCircle, AiFillCloseCircle } from "react-icons/ai";
+import { AiFillAlert } from "react-icons/ai";
 
 
-export const alarmNaveFantasma = (detectada = false) =>
+export const alarmNaveFantasma = (detectada = false,dateTime) =>
   detectada ? (
-    <AiFillCloseCircle
+    <>
+    <AiFillAlert
       color="red"
       size="80px"
       className="animate__animated animate__pulse animate__infinite"
       style={{ border: "2px solid red", borderRadius: "100%" }}
     />
+    <span className="danger"> [(Bomber|1200)]</span>
+    </>
   ) : (
-    <AiFillCheckCircle
+    <AiFillAlert
       color="rgba(0, 38, 255, 0.842)"
       size="80px"
-      style={{ border: "2px solid white", borderRadius: "100%" }}
+      style={{ border: "2px solid blue", borderRadius: "100%" }}
     />
   );

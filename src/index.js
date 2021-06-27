@@ -1,11 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import DashboardScreen from './DashboardScreen';
-import "./index.css"
+import React from "react";
+import ReactDOM from "react-dom";
+import DashboardScreen from "./DashboardScreen";
+import "./index.css";
+import Header from "./shared/Header";
 
 ReactDOM.render(
   <React.StrictMode>
-    <DashboardScreen/>
+    <Header />
+    <div className="body">
+      <DashboardScreen />
+    </div>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );

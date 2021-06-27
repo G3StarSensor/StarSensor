@@ -4,6 +4,7 @@ export const alertNaveRebelde = (condition = false) =>
     <span className="alertDanger animate__animated animate__pulse animate__infinite	infinite">
       ¡Naves rebeldes detectadas!
     </span>
+    
   ) : (
-    <span className="alertOk">No hay naves rebeldes</span>
+    <span className="alertOk">No se han detectado naves rebeldes</span>
   );
