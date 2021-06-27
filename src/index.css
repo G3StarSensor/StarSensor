@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 
 body{
-  background-color: black;
+  background-color: rgb(31, 31, 31);
 }
 
-.body {
+.viewer {
   align-items: flex-end;
   background-image: url("https://media3.giphy.com/media/TZf4ZyXb0lXXi/200w.webp?cid=ecf05e47ci8hbeu0bl5jn3zx5j0ku1y0rv88wxv2wlbizcyb&rid=200w.webp&ct=g");
-  background-size: cover;
+  background-size:cover;
   border: 0;
   border: 1px solid rgb(90, 90, 90);
   border-bottom: 0px;
@@ -22,6 +22,7 @@ body{
   margin: 0;
   text-align: center;
   width: 100%;
+  filter:brightness(1);
 }
 
 .dash {
@@ -105,4 +106,10 @@ body{
 
 .danger {
   color: rgb(236, 0, 0);
+}
+
+.btnManual{
+  top:0;
+  background-color: transparent;
+  color: white;
 }

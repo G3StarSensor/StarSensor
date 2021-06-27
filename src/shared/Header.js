@@ -6,7 +6,7 @@ import logo from "../media/logo.jpg"
 const Container = styled.div`
   width: 100%;
   height: 10vh;
-  background-color: black;
+  background-color: rgb(31, 31, 31);
   color: white;
   display: flex;
   align-items: center;
@@ -26,7 +26,8 @@ const Clock = styled.div`
 const Logo = styled.img`
     display: inline-block;
     height: 80%;
-    border-radius: 0px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 0px;
 ` 
 
 export default function Header() {
@@ -35,7 +36,7 @@ export default function Header() {
     var today = new Date();
     var year = today.getFullYear();
     var month = today.getMonth();
-    var day = today.getDay();
+    var day = today.getDate()
     var hr = today.getHours();
     var min = today.getMinutes();
     var sec = today.getSeconds();
@@ -46,7 +47,7 @@ export default function Header() {
 
   setInterval(clock, 1000);
   return (
-    <Container>
+    <Container className="animate__animated animate__shakeX">
         <Logo src={logo}/>
       <Clock>{dateTime}</Clock>
         <Logo src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"/>

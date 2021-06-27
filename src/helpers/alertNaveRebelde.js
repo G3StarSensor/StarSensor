@@ -2,7 +2,7 @@
 export const alertNaveRebelde = (condition = false) =>
   condition ? (
     <span className="alertDanger animate__animated animate__pulse animate__infinite	infinite">
-      ¡Naves rebeldes detectadas!
+      ¡(Bomber|135) Detectada [S132.452]!
     </span>
     
   ) : (

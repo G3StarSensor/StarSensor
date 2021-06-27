@@ -12,7 +12,7 @@ export const alarmNaveFantasma = (detectada = false,dateTime) =>
       className="animate__animated animate__pulse animate__infinite"
       style={{ border: "2px solid red", borderRadius: "100%" }}
     />
-    <span className="danger"> [(Bomber|1200)]</span>
+    <span className="danger"> [(Bomber|S1200)]</span>
     </>
   ) : (
     <AiFillAlert

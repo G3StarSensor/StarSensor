@@ -5,9 +5,9 @@ import "./index.css";
 import Header from "./shared/Header";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode className="">
     <Header />
-    <div className="body">
+    <div className="viewer animate__animated animate__zoomInDown">
       <DashboardScreen />
     </div>
   </React.StrictMode>,
