@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/StarSensor/static/css/main.46ff7f49.chunk.css",
-    "main.js": "/StarSensor/static/js/main.a9241a1a.chunk.js",
-    "main.js.map": "/StarSensor/static/js/main.a9241a1a.chunk.js.map",
+    "main.css": "/StarSensor/static/css/main.a41ec87e.chunk.css",
+    "main.js": "/StarSensor/static/js/main.f1da7f04.chunk.js",
+    "main.js.map": "/StarSensor/static/js/main.f1da7f04.chunk.js.map",
     "runtime-main.js": "/StarSensor/static/js/runtime-main.6aa8caf2.js",
     "runtime-main.js.map": "/StarSensor/static/js/runtime-main.6aa8caf2.js.map",
     "static/js/2.8deb63c2.chunk.js": "/StarSensor/static/js/2.8deb63c2.chunk.js",
     "static/js/2.8deb63c2.chunk.js.map": "/StarSensor/static/js/2.8deb63c2.chunk.js.map",
     "index.html": "/StarSensor/index.html",
-    "static/css/main.46ff7f49.chunk.css.map": "/StarSensor/static/css/main.46ff7f49.chunk.css.map",
+    "static/css/main.a41ec87e.chunk.css.map": "/StarSensor/static/css/main.a41ec87e.chunk.css.map",
     "static/js/2.8deb63c2.chunk.js.LICENSE.txt": "/StarSensor/static/js/2.8deb63c2.chunk.js.LICENSE.txt",
     "static/media/logo.8e7e9267.jpg": "/StarSensor/static/media/logo.8e7e9267.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6aa8caf2.js",
     "static/js/2.8deb63c2.chunk.js",
-    "static/css/main.46ff7f49.chunk.css",
-    "static/js/main.a9241a1a.chunk.js"
+    "static/css/main.a41ec87e.chunk.css",
+    "static/js/main.f1da7f04.chunk.js"
   ]
 }
