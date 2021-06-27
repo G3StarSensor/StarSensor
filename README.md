@@ -8,7 +8,7 @@ Puedes acceder a la aplicacion desde este enlace:
 
 ## Descripcion
 
-Este es al sistema de alarmas tempranas de la alerta de la muerte. Tiene la caṕacidad de procesar la información de los 180.000 sensores de la estrella de la muerte e idenficar y notificar la presencia de las naves de los rebeldes, de la nave fantasm y adicionalmente notifica si hay averias en algún sensor.
+Este es al sistema de alarmas tempranas de la alerta de la muerte. Tiene la caṕacidad de procesar la información de los 180.000 sensores de la estrella de la muerte e idenficar y notificar la presencia de las naves de los rebeldes, de la nave fantasma y adicionalmente notifica si hay averias en algún sensor.
 ## 🔍 Vistas 
 
 ## Requisitos
